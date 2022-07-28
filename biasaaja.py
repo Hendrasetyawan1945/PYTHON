@@ -12,7 +12,7 @@ def biasa(tipe, jam='1'):  # argumen  || catatan dalam pemberian nilai default d
 def jamanam():
     return("mencoba fungsi lain")
 
-if __name__ == __name__ :
+if __name__ == '__main__' :
     tipenya = gol = input("masukan tipe kendaraan : ")  # input tipe mobil
     tipe1 = tipenya.strip().replace(" ", "").lower()
     jamnya = input("masukan jam : ")  # input jam || parameter

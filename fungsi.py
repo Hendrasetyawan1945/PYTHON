@@ -28,3 +28,6 @@ elif gol1 == 'langganan':
     saldo = 50000
     salahir = langganan(saldo)
     print("saldo anda {}".format(salahir))
+    
+elif gol1 == 'jamanam':
+        print(jamanam())
