@@ -4,7 +4,6 @@
 from biasaaja import biasa
 from langgananf import langganan
 
-
 gol = input("masukan gologan : ")
 gol1 = gol.strip().replace(" ", "").lower()
 
@@ -14,7 +13,7 @@ if gol1 == 'biasa':
     tipe1 = tipenya.strip().replace(" ", "").lower()
     jamnya = input("masukan jam : ")  # input jam || parameter
     if jamnya:
-      ongkos = biasa(jamnya, tipe1)
+      ongkos = biasa(tipe1, jamnya) #sesuaikan dengan fungsinya
     else:
         ongkos = biasa(tipe1)
 

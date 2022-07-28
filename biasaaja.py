@@ -8,3 +8,7 @@ def biasa(tipe, jam='1'):  # argumen  || catatan dalam pemberian nilai default d
     else:
         c = 7500
     return c
+
+def jamanam():
+    return("mencoba fungsi lain")
+
