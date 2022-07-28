@@ -12,3 +12,17 @@ def biasa(tipe, jam='1'):  # argumen  || catatan dalam pemberian nilai default d
 def jamanam():
     return("mencoba fungsi lain")
 
+
+tipenya = gol = input("masukan tipe kendaraan : ")  # input tipe mobil
+tipe1 = tipenya.strip().replace(" ", "").lower()
+jamnya = input("masukan jam : ")  # input jam || parameter
+if jamnya:
+    ongkos = biasa(tipe1, jamnya)  # sesuaikan dengan fungsinya
+else:
+    ongkos = biasa(tipe1)
+
+    #ongkos = biasa(jam=jamnya, tipe=tipe1)
+    #ongkos = biasa(jamnya,tipe1)             #untuk melakukan pembalik parameter || ongkos = biasa(argumen : parameter,agumen)
+
+print("jenis kendaraan {}".format(tipe1))
+print("total bayar anda : {}".format(ongkos))
