@@ -1,7 +1,7 @@
 #latiahan fungsi
 #penambahan if
 
-from biasaaja import biasa
+from biasaaja import * #nama parameter ||penambahan * untuk menambahkan semua parameter
 from langgananf import langganan
 
 gol = input("masukan gologan : ")
