@@ -1,7 +1,7 @@
 #latiahan fungsi
 #penambahan if
 
-from biasaaja import biasa
+from biasaaja import * #nama parameter ||penambahan * untuk menambahkan semua parameter
 from langgananf import langganan
 
 gol = input("masukan gologan : ")
@@ -28,3 +28,6 @@ elif gol1 == 'langganan':
     saldo = 50000
     salahir = langganan(saldo)
     print("saldo anda {}".format(salahir))
+    
+elif gol1 == 'jamanam':
+        print(jamanam())
